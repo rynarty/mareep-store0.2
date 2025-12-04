@@ -1,0 +1,150 @@
+/* === TEMA ESCURO === */
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0e0f11;
+    color: #e6e6e6;
+}
+
+/* HEADER -------------------------------- */
+
+header {
+    background: linear-gradient(90deg, #fff643, #fcff45);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    box-shadow: 0 4px 10px #000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 60px;
+}
+
+.logo h1 {
+    font-size: 28px;
+    margin: 0;
+    color: #000000;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #000000;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* BANNER --------------------------------- */
+
+.banner {
+    text-align: center;
+    padding: 60px 20px;
+    background: url('https://wallpapercave.com/wp/wp2763917.png');
+    background-size: cover;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+
+/* CARDS ---------------------------------- */
+
+.section-title {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 32px;
+    color: #fff;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 25px;
+    padding: 40px;
+}
+
+.card {
+    background: #1a1c22;
+    border-radius: 18px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0 4px 10px #000;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 18px #000;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 700;
+    color: #7ab6ff;
+}
+
+/* PÁGINA DA CARTA ------------------------ */
+
+.card-page {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.card-page img {
+    width: 320px;
+    border-radius: 18px;
+    box-shadow: 0 0 20px #000;
+}
+
+.card-page h2 {
+    font-size: 36px;
+}
+
+.card-info {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.buy-btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #ffd86b;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.buy-btn:hover {
+    background: #ffcc40;
+}
+
+/* FOOTER -------------------------------- */
+
+footer {
+    background: #1a1c22;
+    color: #aaa;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
